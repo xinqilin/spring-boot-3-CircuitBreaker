@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: CircuitBreaker
+#  jackson.serialization.indent_output: true
