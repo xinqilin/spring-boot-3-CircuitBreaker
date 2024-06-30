@@ -32,7 +32,7 @@ import java.util.function.Supplier
 @RestController
 @RequestMapping(value = ["/functional"])
 class FunctionalStyleController(
-    @Qualifier("functionalStyleService")
+    @Qualifier("functionalService")
     private val businessBService: Service,
     circuitBreakerRegistry: CircuitBreakerRegistry,
     threadPoolBulkheadRegistry: ThreadPoolBulkheadRegistry,
